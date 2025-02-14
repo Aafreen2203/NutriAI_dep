@@ -57,6 +57,7 @@
   .Join {
     flex-direction: column;
     gap: 1rem;
+    margin-left: -10px;
   }
 
   .left-j {

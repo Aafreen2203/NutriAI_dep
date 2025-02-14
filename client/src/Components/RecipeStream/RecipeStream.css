@@ -124,3 +124,52 @@ li {
   margin-bottom: 5px;
   color: rgb(190, 187, 187);
 }
+
+
+/* Responsive layout for smaller screens */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stack elements vertically */
+    height: auto; /* Allow content to adjust height dynamically */
+  }
+
+  .left-side {
+    width: 100%; /* Make the left section take full width */
+    border-radius: 0; /* Remove rounded corners for seamless stacking */
+  }
+
+  .right-side {
+    width: 100%; /* Make the right section take full width */
+    padding: 10px;
+    flex: none; /* Remove flex-grow property */
+  }
+
+  .recipe-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .recipe-card {
+    flex: 1 1 100%; /* Each card takes full width in single column layout */
+    max-width: 100%;
+  }
+
+  .info-card {
+    width: 100%; /* Ensure the info card takes full width */
+  }
+
+  .search-container {
+    margin-top: 10px;
+  }
+
+  .search-input {
+    font-size: 14px; /* Slightly smaller font for inputs */
+    padding: 8px;
+  }
+
+  .search-button {
+    font-size: 14px;
+    padding: 8px;
+  }
+}

@@ -31,9 +31,15 @@
     z-index: 99;
   }
 
+  .header-title h1 {
+    font-size: 26px;
+    margin-top: 10px;
+    margin-left: 130px;
+  }
+
   .header-menu {
     flex-direction: column;
-    background-color: gray;
+    background-color: transparent;
     padding: 2rem;
   }
 }

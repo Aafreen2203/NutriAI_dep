@@ -83,7 +83,7 @@
   .programs-header {
     flex-direction: column;
     gap: 1rem;
-    font-size: x-large;
+    font-size: clamp(10px,10vw,30px);
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
@@ -91,6 +91,7 @@
 
   .program-categories {
     flex-direction: column;
+    margin-left: 40px;
   }
   
 }

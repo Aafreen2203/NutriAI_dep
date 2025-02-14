@@ -235,11 +235,11 @@
   }
 
   .hero-blur {
-    width: 14rem;
+    width: 10rem;
   }
 
   .the-best-ad {
-    margin-top: 0;
+    margin-top: -10px;
     font-size: small;
     align-self: center;
     transform: scale(0.8);
@@ -252,7 +252,7 @@
   }
 
   .fr-hero-text > div:nth-of-type(3) {
-    font-size: small;
+    font-size: clamp(18px,2vw,30px);
     font-weight: 200;
     letter-spacing: 1px;
     text-align: center;
@@ -268,21 +268,22 @@
   }
 
   .heart-rate {
-    left: 1rem;
-    top: 2rem;
+    display: none;
   }
 
   .hero-image {
-    position: relative;
+    /* position: relative;
     width: 15rem;
     left: 7rem;
     top: 4rem;
-    align-items: center;
+    align-items: center; */
+    display: none;
   }
 
   .hero-image-back {
-    width: 15rem;
+    /* width: 15rem;
     left: 2rem;
-    top: 0rem;
+    top: 0rem; */
+    display: none;
   }
 }
