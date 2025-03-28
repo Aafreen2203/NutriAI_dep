@@ -53,8 +53,11 @@ npm install
 2. REACT_APP_YOUTUBE_API_KEY=your_youtube_api_key
 
 3. REACT_APP_FIREBASE_API_KEY=your_firebase_api_key
+```
 
-Start the development server: npm start
+## **Start the development server:**
+```bash
+npm start
 ```
 ## **Deployment**
 
