@@ -1,62 +1,53 @@
-NutriAI
+# NutriAI 🥗🤖
 
-Overview
+## **Overview**
+NutriAI is an intelligent web application that provides personalized diet recipes and fitness content based on user preferences and ingredients.
 
-NutriAI is a web application that provides personalized diet recipes based on user-inputted ingredients and dietary preferences. The system leverages the Edamam API for recipe recommendations, YouTube Data API v3 for fetching Strength and cardio training video content, and Firebase Authentication for user management.
+## **Project Links**
+- **GitHub Repository**: https://github.com/Aafreen2203/NutriAI_dep
+- **Live Demo**: [Your Deployment Link](https://nutriai.aafreen.live/)
 
-Features
+## **Key Features**
+- **Recipe Recommendations**: Generate personalized recipes
+- **Ingredient-Based Search**: Find recipes using available ingredients
+- **Nutritional Analysis**: Detailed nutritional information
+- **Video Integration**: Fitness and recipe tutorial videos
+- **User Authentication**: Secure Firebase login
+- **Responsive Design**: Seamless experience across devices
 
-Recipe Recommendations: Fetches recipes based on user-specified ingredients and dietary restrictions.
+## **Tech Stack**
+- **Frontend**: React.js
+- **Backend**: Node.js, Express.js
+- **APIs**: 
+  - **Edamam API**: Recipe and nutrition data
+  - **YouTube Data API v3**: Fitness and recipe videos
+- **Authentication**: Firebase
+- **Deployment**: AWS
 
-Ingredient-Based Search: Users can input available ingredients to receive relevant recipes.
+## **Prerequisites**
+```bash
+# Required Installations
+- Node.js (v14+ recommended)
+- npm (v6+)
+- Git
+-API keys for Edamam and YouTube Data API v3
+-Firebase project setup for authentication
+```
+## **Steps**
 
-Nutritional Analysis: Provides nutritional details for each recipe via the Edamam API.
-
-Video Integration: Uses YouTube Data API v3 to suggest related recipe videos.
-
-User Authentication: Firebase Authentication for secure login and personalized experience.
-
-User-Friendly UI: Built with React.js for a seamless experience.
-
-Tech Stack
-
-Frontend: React.js for an interactive user interface.
-
-Backend: Node.js with Express.js for handling API requests.
-
-APIs:
-
-Edamam API: Fetching recipe data and nutritional information.
-
-YouTube Data API v3: Providing video recommendations.
-
-Authentication & Database: Firebase Authentication.
-
-Deployment: AWS for hosting and storage.
-
-Installation & Setup
-
-Prerequisites
-
-Node.js & npm installed
-
-API keys for Edamam and YouTube Data API v3
-
-Firebase project setup for authentication
-
-Steps
-
-Clone the repository:
-
+**Clone the repository:**
+```bash
 git clone https://github.com/Aafreen2203/NutriAI_dep.git
 cd NutriAI_dep
+```
+**Install dependencies:**
+```bash
+npm install
+```
+**Configure environment variables:** Set up Edamam API, YouTube Data API v3 keys, and Firebase credentials.
 
-Install dependencies: npm install
-
-Configure environment variables: Set up Edamam API, YouTube Data API v3 keys, and Firebase credentials.
-
-Create a .env file and add:
-
+## **Create a .env file and add:**
+```bash
 1. REACT_APP_EDAMAM_API_KEY=your_edamam_api_key
 
 2. REACT_APP_YOUTUBE_API_KEY=your_youtube_api_key
@@ -64,8 +55,8 @@ Create a .env file and add:
 3. REACT_APP_FIREBASE_API_KEY=your_firebase_api_key
 
 Start the development server: npm start
-
-Deployment
+```
+## **Deployment**
 
 1. Deploy frontend using AWS Amplify or Vercel.
 
@@ -73,17 +64,17 @@ Deployment
 
 3. Ensure backend endpoints are accessible if required.
 
-Future Enhancements
+## **Future Enhancements**
 
-  User-Based AI/ML Filtering: Factorization using SVD for collaborative filtering.
+  - User-Based AI/ML Filtering: Factorization using SVD for collaborative filtering.
 
-  Content-Based Filtering using TF-IDF.
+  - Content-Based Filtering using TF-IDF.
 
-  Hybrid Recommendation System combining both approaches.
+  - Hybrid Recommendation System combining both approaches.
 
-  Advanced Filtering for dietary needs.
+  - Advanced Filtering for dietary needs.
 
-  User Authentication Enhancements to save preferences.
+  - User Authentication Enhancements to save preferences.
 
-  Meal Planning Feature for personalized diet tracking.
+  - Meal Planning Feature for personalized diet tracking.
 
